@@ -1,4 +1,4 @@
-# 📜 Jméno jazykového modelu – Dokumentace *(název zatím není vymyšlen 😢)*
+# 📜 TULeCZech – Dokumentace
 
 ## 🏗️ Tvorba jazykového modelu 
 
