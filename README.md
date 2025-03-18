@@ -44,4 +44,6 @@ Tato bakalářská práce se zabývá tvorbou vlastního jazykového modelu (**L
         - 🧩 **Použitý základní model**  
         - 🗂️ **Datasety** – jaká data byla použita?  
         - ⚙️ **Hyperparametry** – LR, BS, Epochy  
-        - 📊 **Výsledky modelu** – výkon a závěrečné metriky  
+        - 📊 **Výsledky modelu** – výkon a závěrečné metriky
+
+**Poznámka:** byl použit ChatGPT pro generaci emoji k odrážkám
