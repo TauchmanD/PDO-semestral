@@ -40,7 +40,7 @@ Tato bakalářská práce se zabývá tvorbou vlastního jazykového modelu (**L
 
  - 💡**Druh uživatele:** jedná se o první typ uživatele, má hlubší znalosti s jazykovými modely
  - 📄**Typ dokumentace:** technický detailní popis navrženého modelu v BP
- - 📚**Obsah:**
+ - 📚**Obsah:**  
         - 🧩 **Použitý základní model**  
         - 🗂️ **Datasety** – jaká data byla použita?  
         - ⚙️ **Hyperparametry** – LR, BS, Epochy  
