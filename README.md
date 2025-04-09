@@ -11,7 +11,7 @@ Tato bakalářská práce se zabývá tvorbou vlastního jazykového modelu (**L
 ## 🎯 Cílové skupiny uživatelů 
 
 ### 🧑‍💻 1️⃣ Uživatel, který chce model **využít**
-
+ - Odkaz [zde](./docs/USAGE.md)
  - 💡**Druh uživatele:** Zkušený programátor, který má znalosti o **LLM** a **vektorizaci textu** a hledá vhodný model. 
  - 📄**Typ dokumentace:** Stručný návod s **fragmenty kódu** a **screenshoty**.
  - 📚**Obsah dokumentace:**
@@ -22,7 +22,6 @@ Tato bakalářská práce se zabývá tvorbou vlastního jazykového modelu (**L
     - 🛠️ **Aplikace modelu** – jak jej integrovat do projektu  
 
 ### 🛠️ 2️⃣ Uživatel, který chce **vytvořit vlastní model**  
- - Odkaz [zde](./docs/USAGE.md)
  - 💡**Druh uživatele:** Nadšenec do jazykových modelů s **deep knowledge**, který potřebuje **svůj vlastní model** pro **konkrétní problém**.  a potřebuje **svůj** vlastní model na **svůj** problém
  - 📄**Typ dokumentace:** Techničtější návod s podrobně popsanými kroky
  - 📚**Obsah dokumentace:**

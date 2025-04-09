@@ -2,7 +2,7 @@
 
 Jazykový model urřený pro vektorizaci textu v českém jazyce. Je použitelný v aplikacích jako je hledání pomocí similarity nebo RAG.
 
-Postavený na architektuře xlm-RoBERTa-base. Pro více informací o architektuře a struktuře modelu klikněte [zde](./USAGE.md).
+Postavený na architektuře xlm-RoBERTa-base. Pro více informací o architektuře a struktuře modelu klikněte [zde](./MODEL.md).
 
 ## Získání modelu
 
