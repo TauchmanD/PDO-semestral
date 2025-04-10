@@ -81,6 +81,38 @@ Požadované závislosti
 Tento model ja založený na xlm-RoBERTa-base, který v základu podporuje více než 100 různůch jazyků. Je ovšem dotrénovaný pouze na českých datech, proto je podpora omezená pouze pro český jazyk.
 
 
+## Detaily trénování
+**První fáze**: Výběr předtrénovaného modelu  
+Vyhodnocení dostupných opensource modelů
+
+| **model**                                | **základní model**       | **acc@1 [%]** | **acc@3 [%]** | **acc@10 [%]** |
+|------------------------------------------|---------------------------|---------------|---------------|----------------|
+| Multilingual-E5-base                     | **xlm-RoBERTa-base**                   | **65.4**      | **86.8**      | **91.7**       |
+| Multilingual-E5-small                    | xlm-RoBERTa-small                  | 63.0          | 85.0          | 90.5           |
+| distiluse-base-multilingual-cased-v2     | BERT                 | 42.6          | 68.5          | 77.3           |
+| LaBSE                                    | BERT                      | 42.3          | 68.2          | 76.9           |
+| Seznam/simcse-dist-mpnet-czeng-cs-en     | BERT              | 36.1          | 62.1          | 71.8           |
+| Seznam/RetroMAE-small-cs                 | BERT                 | 27.0          | 49.9          | 59.9           |
+| Seznam/simcse-small-e-czech              | ELECTRA             | 3.3           | 9.9           | 14.8           |
+
+
+
+**Inicializace**: FacebookAI/xlm-RoBERTa-base
+
+**Druhá fáze**: Doladění pomocí vlastního datasetu
+
+| **Dataset**     | **# of text pairs [M]** |
+|-----------------|-------------------------|
+| DaReCzech       | 97                      |
+| SQuAD v1.1      | 18.5                    |
+| SQuAD v2.0      | 18.6                    |
+| iDnes           | 500                     |
+| **Celkem**      | **634.3**               |
+
+
+Pro ostatní detaily trénování využijte článku [zde](./MODEL.md)
+
+
 ## Limitace
 
 Delší texty budou zkráceny na maximálně 512 tokenů
