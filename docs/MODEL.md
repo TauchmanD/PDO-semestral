@@ -49,7 +49,7 @@ Model je postavený na **xlm-RoBERTa-base** a byl doladěn (fine-tuned) pomocí 
 Nastavení tréninku:
 
 - Maximální délka vstupu: 512 tokenů
-- Batch size: 32
+- Batch size: 56
 - Optimalizátor: Adam + AdamW
 - Počet epoch: 30
 - Learning rate: 2e-5

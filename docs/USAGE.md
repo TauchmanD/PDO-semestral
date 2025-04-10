@@ -79,19 +79,18 @@ Model je založen na **xlm-RoBERTa-base**, který podporuje více než 100 jazyk
 
 ---
 
-## 📊 Výběr základního modelu
+## 📊 Výsledky na SQuAD
 
-| **Model**                              | **Základní architektura** | **acc@1 [%]** | **acc@3 [%]** | **acc@10 [%]** |
-|----------------------------------------|----------------------------|---------------|---------------|----------------|
-| **TULeCZech (náš model)**              | **xlm-RoBERTa-base**       | **72.3**      | **89.6**      | **94.1**       |
-| Multilingual-E5-base                   | xlm-RoBERTa-base           | 65.4          | 86.8          | 91.7           |
-| Multilingual-E5-small                  | xlm-RoBERTa-small          | 63.0          | 85.0          | 90.5           |
-| distiluse-base-multilingual-cased-v2   | BERT                       | 42.6          | 68.5          | 77.3           |
-| LaBSE                                  | BERT                       | 42.3          | 68.2          | 76.9           |
-| Seznam/simcse-dist-mpnet-czeng-cs-en   | BERT                       | 36.1          | 62.1          | 71.8           |
-| Seznam/RetroMAE-small-cs               | BERT                       | 27.0          | 49.9          | 59.9           |
-| Seznam/simcse-small-e-czech            | ELECTRA                    | 3.3           | 9.9           | 14.8           |
-
+| **model**                                | **základní model**       | **acc@1 [%]** | **acc@3 [%]** | **acc@10 [%]** |
+|------------------------------------------|---------------------------|---------------|---------------|----------------|
+| **TULeCZech (náš model)**                | **xlm-RoBERTa-base**      | **63.7**      | **83.6**      | **92.1**       |
+| Multilingual-E5-base                     | xlm-RoBERTa-base          | 65.4          | 86.8          | 91.7           |
+| Multilingual-E5-small                    | xlm-RoBERTa-small         | 63.0          | 85.0          | 90.5           |
+| distiluse-base-multilingual-cased-v2     | BERT                      | 42.6          | 68.5          | 77.3           |
+| LaBSE                                    | BERT                      | 42.3          | 68.2          | 76.9           |
+| Seznam/simcse-dist-mpnet-czeng-cs-en     | BERT                      | 36.1          | 62.1          | 71.8           |
+| Seznam/RetroMAE-small-cs                 | BERT                      | 27.0          | 49.9          | 59.9           |
+| Seznam/simcse-small-e-czech              | ELECTRA                   | 3.3           | 9.9           | 14.8           |
 ---
 
 ## 🦚 Trénovací datasety
@@ -104,16 +103,7 @@ Model je založen na **xlm-RoBERTa-base**, který podporuje více než 100 jazyk
 | iDnes           | 500                      |
 | **Celkem**      | **634.3**                |
 
----
 
-## ⚙️ Trénovací detaily
-
-- **Inicializace**: `facebook/xlm-roberta-base`
-- **Loss funkce**: `MultipleNegativesRankingLoss`
-- **Max délka vstupu**: 512 tokenů
-- **Batch size**: 32
-- **Learning rate**: 2e-5
-- **Počet epoch**: 3–5
 - Pro další podrobnosti přejděte na [MODEL.md](./MODEL.md)
 
 ---
