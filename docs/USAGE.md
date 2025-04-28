@@ -4,7 +4,7 @@
 
 Model je postaven na architektuře **xlm-RoBERTa-base** a doladěn (fine-tuned) výhradně na českých datech.
 
-📄 Pro detailní informace o trénování, architektuře a použitých datech klikněte [zde](./MODEL.md).
+📄 Pro detailní informace o trénování, architektuře a použitých datech klikněte [zde](./PDO.pdf).
 
 ---
 
@@ -104,7 +104,7 @@ Model je založen na **xlm-RoBERTa-base**, který podporuje více než 100 jazyk
 | **Celkem**      | **634.3**                |
 
 
-- Pro další podrobnosti přejděte na [MODEL.md](./MODEL.md)
+- Pro další podrobnosti přejděte na [MODEL.md](./PDO.pdf)
 
 ---
 
